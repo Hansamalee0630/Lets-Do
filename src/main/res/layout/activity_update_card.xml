@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/gradient"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context=".UpdateCard">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/update_details"
+        android:textColor="#C5A3FF"
+        android:textStyle="bold"
+        android:textSize="36sp"
+        android:gravity="center"
+        android:paddingBottom="50dp"
+        android:shadowColor="@color/black"
+        android:shadowDx="4"
+        android:shadowDy="5"
+        android:shadowRadius="52"
+        android:fontFamily="sans-serif"/>
+
+    <EditText
+        android:id="@+id/create_title"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:hint="@string/submission_of_the_mad_lab_04"
+        android:layout_marginTop="30dp"
+        android:padding="15dp"
+        android:backgroundTint="#26007C"
+        android:background="@drawable/custom_edittetext"
+        android:textColorHint="#BBA5E3"
+        android:shadowRadius="52"
+        android:shadowDy="5"
+        android:shadowDx="5"
+        android:shadowColor="@color/black"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        />
+
+    <EditText
+        android:id="@+id/create_priority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="@string/high_priority"
+        android:padding="15dp"
+        android:textAlignment="center"
+        android:backgroundTint="#26007C"
+        android:background="@drawable/custom_edittetext"
+        android:textColorHint="#BBA5E3"
+        android:shadowRadius="52"
+        android:shadowDy="5"
+        android:shadowDx="5"
+        android:shadowColor="@color/black"
+        />
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp">
+
+        <Button
+            android:id="@+id/update_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:backgroundTint="#025353"
+            android:background="@drawable/rounded_button_background"
+            android:text="@string/update"
+            android:shadowColor="@color/black"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="25"/>
+
+        <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/delete_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:backgroundTint="#CB982906"
+            android:background="@drawable/rounded_button_background"
+            android:text="@string/delete"
+            android:shadowColor="@color/black"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="25"/>
+    </LinearLayout>
+
+</LinearLayout>

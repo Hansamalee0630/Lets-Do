@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Let\'s Do</string>
+    <string name="save">Save</string>
+    <string name="priority">Priority</string>
+    <string name="enter_task">Enter Task</string>
+    <string name="enter_details">Enter Details</string>
+    <string name="to_do">To Do</string>
+    <string name="manage_your_day">Manage Your Day</string>
+    <string name="let_s_do">Let\'s Do</string>
+    <string name="enter_task1">Enter Task</string>
+    <string name="update_details">Update Details</string>
+    <string name="priority1">Priority</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="submission_of_the_mad_lab_04">Submission of the MAD Lab 04</string>
+    <string name="high_priority">High Priority</string>
+</resources>
